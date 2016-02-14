@@ -1,0 +1,31 @@
+//Saturday, February 13, 2016
+
+String.fromCharCode();
+  //DEFINITION
+  //The static String.fromCharCode() method returns a string created by using the specified sequence of Unicode values.
+  
+  //SYNTAX
+  //String.fromCharCode(num1[, ...[, numN]])
+  
+  //EXAMPLE
+  //String.fromCharCode(65, 66, 67);  // "ABC"
+  
+  //USE CASE
+  //I used this method in order to determine the char code location of a letter on a string
+  //String.fromCharCode(str[i]);
+  
+.charCodeAt();
+  //DEFINITION
+  //The charCodeAt() method returns the numeric Unicode value of the character at the given index (except for unicode codepoints > 0x10000).
+
+  //SYNTAX
+  //str.charCodeAt(index)
+  
+  //EXAMPLE
+  //'ABC'.charCodeAt(0); // returns 65 because A is char code 65
+  
+  //USE CASE
+  //I called this method when I needed to get the first character of a string inside the String.fromCharCode() method
+  //String.fromCharCode(str[i].charCodeAt(0));
+  
+  
